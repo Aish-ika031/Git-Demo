@@ -1,0 +1,6 @@
+n=int(input())
+arr=list(map(int, input().split()))
+arr.sort(reverse=True)
+print("Smallest element:",arr[n-1])
+print("Second smallest element:",arr[n-2])
+print("Largest element:", arr[0])
